@@ -132,7 +132,7 @@ const seatStatus = (seatTaken) => {
   <main>
     <div>
       <div class="header" v-for="{ name, rows } in checkSection">
-        <h1>{{ name }}</h1>
+        <h1 class="headerTitle">{{ name }}</h1>
         <div class="row" v-for="{ row, seats } in rows">
           <h1>Row {{ row }}</h1>
           <div
@@ -165,6 +165,10 @@ const seatStatus = (seatTaken) => {
   text-align: center;
   margin-bottom: 10%;
   background-color: rgb(176, 176, 255);
+}
+
+.headerTitle {
+  margin-bottom: 5%;
 }
 .row {
   display: flex;
