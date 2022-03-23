@@ -58,6 +58,7 @@ const groups = [
     ],
   },
 ];
+
 //BATTLEPAN
 // We need to map over the seats and check if the section name, the row and the seat in the group exist
 // If that exist I add the group id(that identify the group) in the object of the layoutSeat
@@ -92,7 +93,7 @@ const checkSection = layout.sections.map((layoutSection) => {
 });
 console.log(checkSection);
 
-//HardCode section first try
+//HardCode section first try and then I made it dynamic on top!
 // const sections = (i, r) => {
 //   const seatRow = seat[i];
 
