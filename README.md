@@ -1,4 +1,4 @@
-# Front-End-Ass
+# Front-End-Exercise
 
 <div>
 <img src="./MainHall.png" alt="Main Hall Image">
